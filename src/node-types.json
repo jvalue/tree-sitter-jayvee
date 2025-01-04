@@ -1,0 +1,3015 @@
+[
+  {
+    "type": "CELL_REFERENCE",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "integer",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "binary_expression",
+    "named": true,
+    "fields": {
+      "false": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "false",
+            "named": false
+          }
+        ]
+      },
+      "left": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": "(",
+            "named": false
+          },
+          {
+            "type": ")",
+            "named": false
+          },
+          {
+            "type": "binary_expression",
+            "named": true
+          },
+          {
+            "type": "cell_literal",
+            "named": true
+          },
+          {
+            "type": "collection_literal",
+            "named": true
+          },
+          {
+            "type": "column_literal",
+            "named": true
+          },
+          {
+            "type": "decimal",
+            "named": true
+          },
+          {
+            "type": "false",
+            "named": false
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer",
+            "named": true
+          },
+          {
+            "type": "range_literal",
+            "named": true
+          },
+          {
+            "type": "regex",
+            "named": true
+          },
+          {
+            "type": "row_literal",
+            "named": true
+          },
+          {
+            "type": "string",
+            "named": true
+          },
+          {
+            "type": "ternary_expression",
+            "named": true
+          },
+          {
+            "type": "true",
+            "named": false
+          },
+          {
+            "type": "unary_expression",
+            "named": true
+          },
+          {
+            "type": "value_keyword_literal",
+            "named": true
+          },
+          {
+            "type": "valuetype_assignment",
+            "named": true
+          }
+        ]
+      },
+      "operator": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "!=",
+            "named": false
+          },
+          {
+            "type": "%",
+            "named": false
+          },
+          {
+            "type": "*",
+            "named": false
+          },
+          {
+            "type": "+",
+            "named": false
+          },
+          {
+            "type": "-",
+            "named": false
+          },
+          {
+            "type": "/",
+            "named": false
+          },
+          {
+            "type": "<",
+            "named": false
+          },
+          {
+            "type": "<=",
+            "named": false
+          },
+          {
+            "type": "==",
+            "named": false
+          },
+          {
+            "type": ">",
+            "named": false
+          },
+          {
+            "type": ">=",
+            "named": false
+          },
+          {
+            "type": "and",
+            "named": false
+          },
+          {
+            "type": "in",
+            "named": false
+          },
+          {
+            "type": "matches",
+            "named": false
+          },
+          {
+            "type": "or",
+            "named": false
+          },
+          {
+            "type": "pow",
+            "named": false
+          },
+          {
+            "type": "root",
+            "named": false
+          },
+          {
+            "type": "xor",
+            "named": false
+          }
+        ]
+      },
+      "right": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": "(",
+            "named": false
+          },
+          {
+            "type": ")",
+            "named": false
+          },
+          {
+            "type": "binary_expression",
+            "named": true
+          },
+          {
+            "type": "cell_literal",
+            "named": true
+          },
+          {
+            "type": "collection_literal",
+            "named": true
+          },
+          {
+            "type": "column_literal",
+            "named": true
+          },
+          {
+            "type": "decimal",
+            "named": true
+          },
+          {
+            "type": "false",
+            "named": false
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer",
+            "named": true
+          },
+          {
+            "type": "range_literal",
+            "named": true
+          },
+          {
+            "type": "regex",
+            "named": true
+          },
+          {
+            "type": "row_literal",
+            "named": true
+          },
+          {
+            "type": "string",
+            "named": true
+          },
+          {
+            "type": "ternary_expression",
+            "named": true
+          },
+          {
+            "type": "true",
+            "named": false
+          },
+          {
+            "type": "unary_expression",
+            "named": true
+          },
+          {
+            "type": "value_keyword_literal",
+            "named": true
+          },
+          {
+            "type": "valuetype_assignment",
+            "named": true
+          }
+        ]
+      },
+      "true": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "true",
+            "named": false
+          }
+        ]
+      },
+      "value": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "decimal",
+            "named": true
+          },
+          {
+            "type": "integer",
+            "named": true
+          },
+          {
+            "type": "regex",
+            "named": true
+          },
+          {
+            "type": "string",
+            "named": true
+          },
+          {
+            "type": "valuetype_assignment",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "block_definition",
+    "named": true,
+    "fields": {
+      "body": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "property_body",
+            "named": true
+          }
+        ]
+      },
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "type": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "block_type_input",
+    "named": true,
+    "fields": {
+      "iotype": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "iotype_definition",
+            "named": true
+          }
+        ]
+      },
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "block_type_output",
+    "named": true,
+    "fields": {
+      "iotype": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "iotype_definition",
+            "named": true
+          }
+        ]
+      },
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "block_type_pipeline",
+    "named": true,
+    "fields": {
+      "block": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "input": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "output": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "block_type_property",
+    "named": true,
+    "fields": {
+      "defaultValue": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "(",
+            "named": false
+          },
+          {
+            "type": ")",
+            "named": false
+          },
+          {
+            "type": "binary_expression",
+            "named": true
+          },
+          {
+            "type": "cell_literal",
+            "named": true
+          },
+          {
+            "type": "collection_literal",
+            "named": true
+          },
+          {
+            "type": "column_literal",
+            "named": true
+          },
+          {
+            "type": "decimal",
+            "named": true
+          },
+          {
+            "type": "false",
+            "named": false
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer",
+            "named": true
+          },
+          {
+            "type": "range_literal",
+            "named": true
+          },
+          {
+            "type": "regex",
+            "named": true
+          },
+          {
+            "type": "row_literal",
+            "named": true
+          },
+          {
+            "type": "string",
+            "named": true
+          },
+          {
+            "type": "ternary_expression",
+            "named": true
+          },
+          {
+            "type": "true",
+            "named": false
+          },
+          {
+            "type": "unary_expression",
+            "named": true
+          },
+          {
+            "type": "value_keyword_literal",
+            "named": true
+          },
+          {
+            "type": "valuetype_assignment",
+            "named": true
+          }
+        ]
+      },
+      "false": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "false",
+            "named": false
+          }
+        ]
+      },
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "true": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "true",
+            "named": false
+          }
+        ]
+      },
+      "value": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "decimal",
+            "named": true
+          },
+          {
+            "type": "integer",
+            "named": true
+          },
+          {
+            "type": "regex",
+            "named": true
+          },
+          {
+            "type": "string",
+            "named": true
+          },
+          {
+            "type": "valuetype_assignment",
+            "named": true
+          }
+        ]
+      },
+      "valueType": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "valuetype_reference",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "builtin_block_type_definition",
+    "named": true,
+    "fields": {
+      "input": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "block_type_input",
+            "named": true
+          }
+        ]
+      },
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "output": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "block_type_output",
+            "named": true
+          }
+        ]
+      },
+      "propterty": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "block_type_property",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "builtin_constrainttype_definition",
+    "named": true,
+    "fields": {
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "property": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "constrainttype_property",
+            "named": true
+          }
+        ]
+      },
+      "valueType": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "valuetype_reference",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "builtin_valuetype_definition",
+    "named": true,
+    "fields": {
+      "genericDefinition": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "valuetype_generics_definition",
+            "named": true
+          }
+        ]
+      },
+      "isBuiltin": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "builtin",
+            "named": false
+          }
+        ]
+      },
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "cell_literal",
+    "named": true,
+    "fields": {
+      "cell_id": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "CELL_REFERENCE",
+            "named": true
+          },
+          {
+            "type": "cell_reference",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "cell_reference",
+    "named": true,
+    "fields": {
+      "columnId": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "*",
+            "named": false
+          },
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "rowId": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "*",
+            "named": false
+          },
+          {
+            "type": "integer",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "collection_literal",
+    "named": true,
+    "fields": {
+      "false": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "false",
+            "named": false
+          }
+        ]
+      },
+      "true": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "true",
+            "named": false
+          }
+        ]
+      },
+      "value": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "(",
+            "named": false
+          },
+          {
+            "type": ")",
+            "named": false
+          },
+          {
+            "type": "binary_expression",
+            "named": true
+          },
+          {
+            "type": "cell_literal",
+            "named": true
+          },
+          {
+            "type": "collection_literal",
+            "named": true
+          },
+          {
+            "type": "column_literal",
+            "named": true
+          },
+          {
+            "type": "decimal",
+            "named": true
+          },
+          {
+            "type": "false",
+            "named": false
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer",
+            "named": true
+          },
+          {
+            "type": "range_literal",
+            "named": true
+          },
+          {
+            "type": "regex",
+            "named": true
+          },
+          {
+            "type": "row_literal",
+            "named": true
+          },
+          {
+            "type": "string",
+            "named": true
+          },
+          {
+            "type": "ternary_expression",
+            "named": true
+          },
+          {
+            "type": "true",
+            "named": false
+          },
+          {
+            "type": "unary_expression",
+            "named": true
+          },
+          {
+            "type": "value_keyword_literal",
+            "named": true
+          },
+          {
+            "type": "valuetype_assignment",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "column_literal",
+    "named": true,
+    "fields": {
+      "columnId": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "*",
+            "named": false
+          },
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "composite_block_type_definition",
+    "named": true,
+    "fields": {
+      "block": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "block_definition",
+            "named": true
+          }
+        ]
+      },
+      "input": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "block_type_input",
+            "named": true
+          }
+        ]
+      },
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "output": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "block_type_output",
+            "named": true
+          }
+        ]
+      },
+      "pipe": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "block_type_pipeline",
+            "named": true
+          }
+        ]
+      },
+      "propterty": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "block_type_property",
+            "named": true
+          }
+        ]
+      },
+      "transform": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "transform_definition",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "constrainttype_property",
+    "named": true,
+    "fields": {
+      "defaultValue": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "(",
+            "named": false
+          },
+          {
+            "type": ")",
+            "named": false
+          },
+          {
+            "type": "binary_expression",
+            "named": true
+          },
+          {
+            "type": "cell_literal",
+            "named": true
+          },
+          {
+            "type": "collection_literal",
+            "named": true
+          },
+          {
+            "type": "column_literal",
+            "named": true
+          },
+          {
+            "type": "decimal",
+            "named": true
+          },
+          {
+            "type": "false",
+            "named": false
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer",
+            "named": true
+          },
+          {
+            "type": "range_literal",
+            "named": true
+          },
+          {
+            "type": "regex",
+            "named": true
+          },
+          {
+            "type": "row_literal",
+            "named": true
+          },
+          {
+            "type": "string",
+            "named": true
+          },
+          {
+            "type": "ternary_expression",
+            "named": true
+          },
+          {
+            "type": "true",
+            "named": false
+          },
+          {
+            "type": "unary_expression",
+            "named": true
+          },
+          {
+            "type": "value_keyword_literal",
+            "named": true
+          },
+          {
+            "type": "valuetype_assignment",
+            "named": true
+          }
+        ]
+      },
+      "false": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "false",
+            "named": false
+          }
+        ]
+      },
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "true": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "true",
+            "named": false
+          }
+        ]
+      },
+      "value": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "decimal",
+            "named": true
+          },
+          {
+            "type": "integer",
+            "named": true
+          },
+          {
+            "type": "regex",
+            "named": true
+          },
+          {
+            "type": "string",
+            "named": true
+          },
+          {
+            "type": "valuetype_assignment",
+            "named": true
+          }
+        ]
+      },
+      "valueType": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "valuetype_reference",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "custom_valuetype_definition",
+    "named": true,
+    "fields": {
+      "constraints": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "collection_literal",
+            "named": true
+          }
+        ]
+      },
+      "genericDefinition": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "valuetype_generics_definition",
+            "named": true
+          }
+        ]
+      },
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "type": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "valuetype_reference",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "decimal",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "integer",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "export_definition",
+    "named": true,
+    "fields": {
+      "alias": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "element": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "exportable_element_definition",
+    "named": true,
+    "fields": {
+      "isPublished": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "publish",
+            "named": false
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "builtin_block_type_definition",
+          "named": true
+        },
+        {
+          "type": "builtin_constrainttype_definition",
+          "named": true
+        },
+        {
+          "type": "builtin_valuetype_definition",
+          "named": true
+        },
+        {
+          "type": "composite_block_type_definition",
+          "named": true
+        },
+        {
+          "type": "custom_valuetype_definition",
+          "named": true
+        },
+        {
+          "type": "expression_constraint_definition",
+          "named": true
+        },
+        {
+          "type": "iotype_definition",
+          "named": true
+        },
+        {
+          "type": "transform_definition",
+          "named": true
+        },
+        {
+          "type": "typed_constraint_definition",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "expression_constraint_definition",
+    "named": true,
+    "fields": {
+      "expression": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": "(",
+            "named": false
+          },
+          {
+            "type": ")",
+            "named": false
+          },
+          {
+            "type": "binary_expression",
+            "named": true
+          },
+          {
+            "type": "cell_literal",
+            "named": true
+          },
+          {
+            "type": "collection_literal",
+            "named": true
+          },
+          {
+            "type": "column_literal",
+            "named": true
+          },
+          {
+            "type": "decimal",
+            "named": true
+          },
+          {
+            "type": "false",
+            "named": false
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer",
+            "named": true
+          },
+          {
+            "type": "range_literal",
+            "named": true
+          },
+          {
+            "type": "regex",
+            "named": true
+          },
+          {
+            "type": "row_literal",
+            "named": true
+          },
+          {
+            "type": "string",
+            "named": true
+          },
+          {
+            "type": "ternary_expression",
+            "named": true
+          },
+          {
+            "type": "true",
+            "named": false
+          },
+          {
+            "type": "unary_expression",
+            "named": true
+          },
+          {
+            "type": "value_keyword_literal",
+            "named": true
+          },
+          {
+            "type": "valuetype_assignment",
+            "named": true
+          }
+        ]
+      },
+      "false": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "false",
+            "named": false
+          }
+        ]
+      },
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "true": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "true",
+            "named": false
+          }
+        ]
+      },
+      "value": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "decimal",
+            "named": true
+          },
+          {
+            "type": "integer",
+            "named": true
+          },
+          {
+            "type": "regex",
+            "named": true
+          },
+          {
+            "type": "string",
+            "named": true
+          },
+          {
+            "type": "valuetype_assignment",
+            "named": true
+          }
+        ]
+      },
+      "valueType": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "valuetype_reference",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "import_definition",
+    "named": true,
+    "fields": {
+      "path": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "string",
+            "named": true
+          }
+        ]
+      },
+      "useAll": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "*",
+            "named": false
+          }
+        ]
+      },
+      "usedElement": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "named_import_element",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "iotype_definition",
+    "named": true,
+    "fields": {
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "jayvee_model",
+    "named": true,
+    "root": true,
+    "fields": {
+      "export": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "export_definition",
+            "named": true
+          }
+        ]
+      },
+      "exportableElement": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "exportable_element_definition",
+            "named": true
+          }
+        ]
+      },
+      "import": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "import_definition",
+            "named": true
+          }
+        ]
+      },
+      "pipeline": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "pipeline_definition",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "line_comment",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "named_import_element",
+    "named": true,
+    "fields": {
+      "alias": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "element": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "pipe_definition",
+    "named": true,
+    "fields": {
+      "block": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "pipeline_definition",
+    "named": true,
+    "fields": {
+      "block": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "block_definition",
+            "named": true
+          }
+        ]
+      },
+      "constraint": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "expression_constraint_definition",
+            "named": true
+          },
+          {
+            "type": "typed_constraint_definition",
+            "named": true
+          }
+        ]
+      },
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "pipe": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "pipe_definition",
+            "named": true
+          }
+        ]
+      },
+      "transform": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "transform_definition",
+            "named": true
+          }
+        ]
+      },
+      "valueType": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "custom_valuetype_definition",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "property_assignment",
+    "named": true,
+    "fields": {
+      "false": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "false",
+            "named": false
+          }
+        ]
+      },
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "true": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "true",
+            "named": false
+          }
+        ]
+      },
+      "value": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": "(",
+            "named": false
+          },
+          {
+            "type": ")",
+            "named": false
+          },
+          {
+            "type": "binary_expression",
+            "named": true
+          },
+          {
+            "type": "cell_literal",
+            "named": true
+          },
+          {
+            "type": "collection_literal",
+            "named": true
+          },
+          {
+            "type": "column_literal",
+            "named": true
+          },
+          {
+            "type": "decimal",
+            "named": true
+          },
+          {
+            "type": "false",
+            "named": false
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer",
+            "named": true
+          },
+          {
+            "type": "range_literal",
+            "named": true
+          },
+          {
+            "type": "regex",
+            "named": true
+          },
+          {
+            "type": "row_literal",
+            "named": true
+          },
+          {
+            "type": "runtime_parameter_literal",
+            "named": true
+          },
+          {
+            "type": "string",
+            "named": true
+          },
+          {
+            "type": "ternary_expression",
+            "named": true
+          },
+          {
+            "type": "true",
+            "named": false
+          },
+          {
+            "type": "unary_expression",
+            "named": true
+          },
+          {
+            "type": "value_keyword_literal",
+            "named": true
+          },
+          {
+            "type": "valuetype_assignment",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "property_body",
+    "named": true,
+    "fields": {
+      "properties": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "property_assignment",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "range_literal",
+    "named": true,
+    "fields": {
+      "cellFrom": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "CELL_REFERENCE",
+            "named": true
+          },
+          {
+            "type": "cell_reference",
+            "named": true
+          }
+        ]
+      },
+      "cellTo": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "CELL_REFERENCE",
+            "named": true
+          },
+          {
+            "type": "cell_reference",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "row_literal",
+    "named": true,
+    "fields": {
+      "row_id": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "*",
+            "named": false
+          },
+          {
+            "type": "integer",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "runtime_parameter_literal",
+    "named": true,
+    "fields": {
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "ternary_expression",
+    "named": true,
+    "fields": {
+      "false": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "false",
+            "named": false
+          }
+        ]
+      },
+      "first": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": "(",
+            "named": false
+          },
+          {
+            "type": ")",
+            "named": false
+          },
+          {
+            "type": "binary_expression",
+            "named": true
+          },
+          {
+            "type": "cell_literal",
+            "named": true
+          },
+          {
+            "type": "collection_literal",
+            "named": true
+          },
+          {
+            "type": "column_literal",
+            "named": true
+          },
+          {
+            "type": "decimal",
+            "named": true
+          },
+          {
+            "type": "false",
+            "named": false
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer",
+            "named": true
+          },
+          {
+            "type": "range_literal",
+            "named": true
+          },
+          {
+            "type": "regex",
+            "named": true
+          },
+          {
+            "type": "row_literal",
+            "named": true
+          },
+          {
+            "type": "string",
+            "named": true
+          },
+          {
+            "type": "ternary_expression",
+            "named": true
+          },
+          {
+            "type": "true",
+            "named": false
+          },
+          {
+            "type": "unary_expression",
+            "named": true
+          },
+          {
+            "type": "value_keyword_literal",
+            "named": true
+          },
+          {
+            "type": "valuetype_assignment",
+            "named": true
+          }
+        ]
+      },
+      "operator": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "replace",
+            "named": false
+          }
+        ]
+      },
+      "second": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": "(",
+            "named": false
+          },
+          {
+            "type": ")",
+            "named": false
+          },
+          {
+            "type": "binary_expression",
+            "named": true
+          },
+          {
+            "type": "cell_literal",
+            "named": true
+          },
+          {
+            "type": "collection_literal",
+            "named": true
+          },
+          {
+            "type": "column_literal",
+            "named": true
+          },
+          {
+            "type": "decimal",
+            "named": true
+          },
+          {
+            "type": "false",
+            "named": false
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer",
+            "named": true
+          },
+          {
+            "type": "range_literal",
+            "named": true
+          },
+          {
+            "type": "regex",
+            "named": true
+          },
+          {
+            "type": "row_literal",
+            "named": true
+          },
+          {
+            "type": "string",
+            "named": true
+          },
+          {
+            "type": "ternary_expression",
+            "named": true
+          },
+          {
+            "type": "true",
+            "named": false
+          },
+          {
+            "type": "unary_expression",
+            "named": true
+          },
+          {
+            "type": "value_keyword_literal",
+            "named": true
+          },
+          {
+            "type": "valuetype_assignment",
+            "named": true
+          }
+        ]
+      },
+      "third": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": "(",
+            "named": false
+          },
+          {
+            "type": ")",
+            "named": false
+          },
+          {
+            "type": "binary_expression",
+            "named": true
+          },
+          {
+            "type": "cell_literal",
+            "named": true
+          },
+          {
+            "type": "collection_literal",
+            "named": true
+          },
+          {
+            "type": "column_literal",
+            "named": true
+          },
+          {
+            "type": "decimal",
+            "named": true
+          },
+          {
+            "type": "false",
+            "named": false
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer",
+            "named": true
+          },
+          {
+            "type": "range_literal",
+            "named": true
+          },
+          {
+            "type": "regex",
+            "named": true
+          },
+          {
+            "type": "row_literal",
+            "named": true
+          },
+          {
+            "type": "string",
+            "named": true
+          },
+          {
+            "type": "ternary_expression",
+            "named": true
+          },
+          {
+            "type": "true",
+            "named": false
+          },
+          {
+            "type": "unary_expression",
+            "named": true
+          },
+          {
+            "type": "value_keyword_literal",
+            "named": true
+          },
+          {
+            "type": "valuetype_assignment",
+            "named": true
+          }
+        ]
+      },
+      "true": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "true",
+            "named": false
+          }
+        ]
+      },
+      "value": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "decimal",
+            "named": true
+          },
+          {
+            "type": "integer",
+            "named": true
+          },
+          {
+            "type": "regex",
+            "named": true
+          },
+          {
+            "type": "string",
+            "named": true
+          },
+          {
+            "type": "valuetype_assignment",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "transform_body",
+    "named": true,
+    "fields": {
+      "ouptutAssignment": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "transform_output_assignment",
+            "named": true
+          }
+        ]
+      },
+      "port": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "transform_port_definition",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "transform_definition",
+    "named": true,
+    "fields": {
+      "body": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "transform_body",
+            "named": true
+          }
+        ]
+      },
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "transform_output_assignment",
+    "named": true,
+    "fields": {
+      "expression": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": "(",
+            "named": false
+          },
+          {
+            "type": ")",
+            "named": false
+          },
+          {
+            "type": "binary_expression",
+            "named": true
+          },
+          {
+            "type": "cell_literal",
+            "named": true
+          },
+          {
+            "type": "collection_literal",
+            "named": true
+          },
+          {
+            "type": "column_literal",
+            "named": true
+          },
+          {
+            "type": "decimal",
+            "named": true
+          },
+          {
+            "type": "false",
+            "named": false
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer",
+            "named": true
+          },
+          {
+            "type": "range_literal",
+            "named": true
+          },
+          {
+            "type": "regex",
+            "named": true
+          },
+          {
+            "type": "row_literal",
+            "named": true
+          },
+          {
+            "type": "string",
+            "named": true
+          },
+          {
+            "type": "ternary_expression",
+            "named": true
+          },
+          {
+            "type": "true",
+            "named": false
+          },
+          {
+            "type": "unary_expression",
+            "named": true
+          },
+          {
+            "type": "value_keyword_literal",
+            "named": true
+          },
+          {
+            "type": "valuetype_assignment",
+            "named": true
+          }
+        ]
+      },
+      "false": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "false",
+            "named": false
+          }
+        ]
+      },
+      "outPortName": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "true": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "true",
+            "named": false
+          }
+        ]
+      },
+      "value": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "decimal",
+            "named": true
+          },
+          {
+            "type": "integer",
+            "named": true
+          },
+          {
+            "type": "regex",
+            "named": true
+          },
+          {
+            "type": "string",
+            "named": true
+          },
+          {
+            "type": "valuetype_assignment",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "transform_port_definition",
+    "named": true,
+    "fields": {
+      "kind": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "from",
+            "named": false
+          },
+          {
+            "type": "to",
+            "named": false
+          }
+        ]
+      },
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "valueType": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "valuetype_reference",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "typed_constraint_definition",
+    "named": true,
+    "fields": {
+      "body": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "property_body",
+            "named": true
+          }
+        ]
+      },
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "type": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "unary_expression",
+    "named": true,
+    "fields": {
+      "false": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "false",
+            "named": false
+          }
+        ]
+      },
+      "operand": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": "(",
+            "named": false
+          },
+          {
+            "type": ")",
+            "named": false
+          },
+          {
+            "type": "binary_expression",
+            "named": true
+          },
+          {
+            "type": "cell_literal",
+            "named": true
+          },
+          {
+            "type": "collection_literal",
+            "named": true
+          },
+          {
+            "type": "column_literal",
+            "named": true
+          },
+          {
+            "type": "decimal",
+            "named": true
+          },
+          {
+            "type": "false",
+            "named": false
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer",
+            "named": true
+          },
+          {
+            "type": "range_literal",
+            "named": true
+          },
+          {
+            "type": "regex",
+            "named": true
+          },
+          {
+            "type": "row_literal",
+            "named": true
+          },
+          {
+            "type": "string",
+            "named": true
+          },
+          {
+            "type": "ternary_expression",
+            "named": true
+          },
+          {
+            "type": "true",
+            "named": false
+          },
+          {
+            "type": "unary_expression",
+            "named": true
+          },
+          {
+            "type": "value_keyword_literal",
+            "named": true
+          },
+          {
+            "type": "valuetype_assignment",
+            "named": true
+          }
+        ]
+      },
+      "operator": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "+",
+            "named": false
+          },
+          {
+            "type": "-",
+            "named": false
+          },
+          {
+            "type": "asBoolean",
+            "named": false
+          },
+          {
+            "type": "asDecimal",
+            "named": false
+          },
+          {
+            "type": "asInteger",
+            "named": false
+          },
+          {
+            "type": "asText",
+            "named": false
+          },
+          {
+            "type": "ceil",
+            "named": false
+          },
+          {
+            "type": "floor",
+            "named": false
+          },
+          {
+            "type": "lowercase",
+            "named": false
+          },
+          {
+            "type": "not",
+            "named": false
+          },
+          {
+            "type": "round",
+            "named": false
+          },
+          {
+            "type": "sqrt",
+            "named": false
+          },
+          {
+            "type": "uppercase",
+            "named": false
+          }
+        ]
+      },
+      "true": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "true",
+            "named": false
+          }
+        ]
+      },
+      "value": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "decimal",
+            "named": true
+          },
+          {
+            "type": "integer",
+            "named": true
+          },
+          {
+            "type": "regex",
+            "named": true
+          },
+          {
+            "type": "string",
+            "named": true
+          },
+          {
+            "type": "valuetype_assignment",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "value_keyword_literal",
+    "named": true,
+    "fields": {
+      "lenghtAccess": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": ".length",
+            "named": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "valuetype_assignment",
+    "named": true,
+    "fields": {
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "string",
+            "named": true
+          }
+        ]
+      },
+      "type": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "valuetype_reference",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "valuetype_generics_definition",
+    "named": true,
+    "fields": {
+      "generic": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "valuetype_reference",
+    "named": true,
+    "fields": {
+      "reference": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "valuetype_generics_definition",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "!=",
+    "named": false
+  },
+  {
+    "type": "%",
+    "named": false
+  },
+  {
+    "type": "(",
+    "named": false
+  },
+  {
+    "type": ")",
+    "named": false
+  },
+  {
+    "type": "*",
+    "named": false
+  },
+  {
+    "type": "+",
+    "named": false
+  },
+  {
+    "type": ",",
+    "named": false
+  },
+  {
+    "type": "-",
+    "named": false
+  },
+  {
+    "type": "->",
+    "named": false
+  },
+  {
+    "type": ".",
+    "named": false
+  },
+  {
+    "type": ".length",
+    "named": false
+  },
+  {
+    "type": "/",
+    "named": false
+  },
+  {
+    "type": ":",
+    "named": false
+  },
+  {
+    "type": ";",
+    "named": false
+  },
+  {
+    "type": "<",
+    "named": false
+  },
+  {
+    "type": "<=",
+    "named": false
+  },
+  {
+    "type": "==",
+    "named": false
+  },
+  {
+    "type": ">",
+    "named": false
+  },
+  {
+    "type": ">=",
+    "named": false
+  },
+  {
+    "type": "[",
+    "named": false
+  },
+  {
+    "type": "]",
+    "named": false
+  },
+  {
+    "type": "and",
+    "named": false
+  },
+  {
+    "type": "as",
+    "named": false
+  },
+  {
+    "type": "asBoolean",
+    "named": false
+  },
+  {
+    "type": "asDecimal",
+    "named": false
+  },
+  {
+    "type": "asInteger",
+    "named": false
+  },
+  {
+    "type": "asText",
+    "named": false
+  },
+  {
+    "type": "block",
+    "named": false
+  },
+  {
+    "type": "block_comment",
+    "named": true
+  },
+  {
+    "type": "blocktype",
+    "named": false
+  },
+  {
+    "type": "builtin",
+    "named": false
+  },
+  {
+    "type": "ceil",
+    "named": false
+  },
+  {
+    "type": "cell",
+    "named": false
+  },
+  {
+    "type": "column",
+    "named": false
+  },
+  {
+    "type": "composite",
+    "named": false
+  },
+  {
+    "type": "constraint",
+    "named": false
+  },
+  {
+    "type": "constraints",
+    "named": false
+  },
+  {
+    "type": "constrainttype",
+    "named": false
+  },
+  {
+    "type": "false",
+    "named": false
+  },
+  {
+    "type": "floor",
+    "named": false
+  },
+  {
+    "type": "from",
+    "named": false
+  },
+  {
+    "type": "identifier",
+    "named": true
+  },
+  {
+    "type": "in",
+    "named": false
+  },
+  {
+    "type": "input",
+    "named": false
+  },
+  {
+    "type": "integer",
+    "named": true
+  },
+  {
+    "type": "iotype",
+    "named": false
+  },
+  {
+    "type": "line_comment",
+    "named": true
+  },
+  {
+    "type": "lowercase",
+    "named": false
+  },
+  {
+    "type": "matches",
+    "named": false
+  },
+  {
+    "type": "not",
+    "named": false
+  },
+  {
+    "type": "oftype",
+    "named": false
+  },
+  {
+    "type": "on",
+    "named": false
+  },
+  {
+    "type": "or",
+    "named": false
+  },
+  {
+    "type": "output",
+    "named": false
+  },
+  {
+    "type": "pipeline",
+    "named": false
+  },
+  {
+    "type": "pow",
+    "named": false
+  },
+  {
+    "type": "property",
+    "named": false
+  },
+  {
+    "type": "publish",
+    "named": false
+  },
+  {
+    "type": "range",
+    "named": false
+  },
+  {
+    "type": "regex",
+    "named": true
+  },
+  {
+    "type": "replace",
+    "named": false
+  },
+  {
+    "type": "requires",
+    "named": false
+  },
+  {
+    "type": "root",
+    "named": false
+  },
+  {
+    "type": "round",
+    "named": false
+  },
+  {
+    "type": "row",
+    "named": false
+  },
+  {
+    "type": "sqrt",
+    "named": false
+  },
+  {
+    "type": "string",
+    "named": true
+  },
+  {
+    "type": "to",
+    "named": false
+  },
+  {
+    "type": "transform",
+    "named": false
+  },
+  {
+    "type": "true",
+    "named": false
+  },
+  {
+    "type": "uppercase",
+    "named": false
+  },
+  {
+    "type": "use",
+    "named": false
+  },
+  {
+    "type": "value",
+    "named": false
+  },
+  {
+    "type": "valuetype",
+    "named": false
+  },
+  {
+    "type": "with",
+    "named": false
+  },
+  {
+    "type": "xor",
+    "named": false
+  },
+  {
+    "type": "{",
+    "named": false
+  },
+  {
+    "type": "}",
+    "named": false
+  }
+]

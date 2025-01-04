@@ -1,0 +1,35 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "jayvee",
+      "camelcase": "Jayvee",
+      "scope": "source.jayvee",
+      "file-types": [
+        ".jv"
+      ],
+      "injection-regex": "^jayvee$"
+    }
+  ],
+  "metadata": {
+    "version": "0.6.4-alpha",
+    "license": "MIT",
+    "description": "Jayvee is a domain-specific language and runtime for automated processing of data pipelines.",
+    "authors": [
+      {
+        "name": "JValue"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/jvalue/jayvee"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true
+  }
+}
